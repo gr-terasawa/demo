@@ -1,6 +1,27 @@
+######################
+# Directories
+######################
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+META-INF/
+classes/
+lib/
+.settings/
+
+######################
+# Class Files
+######################
+*.class
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+
+######################
+# Eclipse
+######################
+.metadata
+.checkstyle
+.classpath
+.project
