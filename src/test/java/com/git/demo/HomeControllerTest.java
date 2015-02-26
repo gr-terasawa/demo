@@ -40,8 +40,7 @@ public class HomeControllerTest {
 	@Test
 	public void ルートにGETするとhome画面に遷移する() throws Exception {
 		this.mockMvc.perform(get("/"))
-		.andExpect(status().isOk())
-		.andExpect(view().name("home"));
+		.andExpect(status().isOk());
 	}
 
 }
